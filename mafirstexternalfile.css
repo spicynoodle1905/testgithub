@@ -1,0 +1,49 @@
+
+        hr {
+            background: linear-gradient(to right, red, yellow, green, blue, pink );
+            height: 5px;
+            border: 0;
+        }
+        a {
+            text-decoration: none;
+        }
+        input[type=submit] {
+            width: 150px;
+            height: 40px;
+            border-radius: 8px;
+            border: none;
+            font-size: 20px;
+            cursor: pointer;
+            font-weight: bold;
+            background-color: greenyellow;
+        }
+        body {
+            background: linear-gradient(to right, white, lightblue);
+            margin: 0px;
+            padding: 5px;
+        }
+        .container {
+            background-color: white;
+            text-align: left;
+            width: 700px;
+            padding: 20px;
+            border: 2 2 2 2px black;
+            border-radius: 5px;
+            margin: 10px;
+            
+
+
+        }
+        input[type=text] {
+            width: 97%;
+            padding: 10px;
+            outline: none;
+            
+        }
+        input[type=text]:focus {
+            border: 1px solid black;
+        }
+        .head {
+            display: flex;
+            justify-content: space-between;
+        }
